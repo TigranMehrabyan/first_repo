@@ -1,0 +1,1 @@
+  ls -laS /home/tigran/Desktop/task2 > sorted_files.txt
