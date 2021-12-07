@@ -1,0 +1,4 @@
+       chmod 275 dir --- cat dir (Permission denied)
+        chmod 441 dir ---- cd dir (Permission denied)
+       chmod 361 dir ---- cd dir ---- ls -l (Permission denied)
+       chmod 566 dir ---- echo  I love dwin >> /home/tigran/Desktop/dir/file1 (Permission denied)

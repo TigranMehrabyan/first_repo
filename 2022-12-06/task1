@@ -1,0 +1,4 @@
+Task1: 
+Step1. wget https://drive.google.com/uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA&export=download 
+Step2. tar -xvf /home/tigran/Desktop/uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA 
+Step3. sudo dpkg --install opera-stable_82.0.4227.23_amd64.deb 
