@@ -2,5 +2,7 @@
 
 cd $1
 
-ls | rn txt csv ".txt"
+for f in *.txt; do 
+    mv -- "$f" "${f%.txt}.csv"
+done
 
