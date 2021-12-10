@@ -1,7 +1,5 @@
 #!/bin/bash
+mkdir temp
+find /home/tigran/workspace -iname "$1*" -exec mv '{}' ./temp/ \;
 
-mkdir dirForZip
-
-ls -d $1* | >> dirForZip
-
-zip -r result.zip dirForZip
+zip -r result.zip temp
