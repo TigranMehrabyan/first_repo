@@ -8,7 +8,8 @@ lastStep(){
 	echo $a/$b
 	mv $2 $a/$b
 }
-
+if [ $2 -gt 9 ] || [ $2 -lt 100 ] && [ -e $1 ];
+then
 for i in {0..9}
 do
         mkdir $i
@@ -19,6 +20,9 @@ do
         done
 	cd ../
 done
+else
+	echo "EROR: something wrong"
+fi
 
 lastStep $2 $1
 
